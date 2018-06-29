@@ -48,6 +48,7 @@ if ( __name__ == "__main__"):
     wall3 = [1, 0, 0, 0, 1]
     wall4 = [6, 1, 1, 2]
 
+    # run validation tests
     assert(find_water(wall1) == 1)
     assert(find_water(wall2) == 8)
     assert(find_water(wall3) == 3)
