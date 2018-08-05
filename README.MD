@@ -4,12 +4,18 @@ My attempted solutions for the Daily Coding Problem (DCP) from www.dailycodingpr
 ## Author : Sayan Bhattacharjee
 ## Email  : aero.sayan@gmail.com
 
-Each folder will have a problem solution file and an output file with a number x in the filename. For example dcp_30.py and dcp_30_output.txt, where x =30.
+Each folder will have a problem solution file and an output file with a number x in the filename. For example dcp_1.cpp and dcp_1.out, where x =1.</br>
+NOTE : I am using MSYS2 to have a linux like environment in windows.</br>
+You may not have that directly installed.
 ```
 $ ls
-dcp_x.py              # the solution file
-dcp_x_output.txt      # the stored output file
-
+dcp_x.cpp
+$ g++ dcp_x.cpp -o dcp_x.exe
+$ ls
+dcp_x.cpp  dcp_x.exe
+$ ls dcp_x.exe > dcp_x.out
+$ ls
+dcp_x.cpp dcp_x.exe dcp_x.out
 ```
 
 Disclaimer
