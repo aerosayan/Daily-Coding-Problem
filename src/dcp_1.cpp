@@ -33,7 +33,7 @@ using namespace std;
 #define mpair make_pair
 #define vec vector
 
-#define watchc(a_,n_) {cout<<(#a_)<<" : ";for(int i=0;i<n;i++){cout<<a_[i]<<"\n"[i!=n-1];}}
+#define watchc(a_,n_) {cout<<(#a_)<<"\t:\t";for(int i=0;i<n-1;i++){cout<<a_[i]<<" ";}cout<<a_[n-1]<<endl;}
 
 bool issum(int n,int arr[],int k)
 {

@@ -1,0 +1,9 @@
+INF :: For given array : arr	:	3 4 -1 1
+INF :: Missing number is	:	2
+---------------------------
+INF :: For given array : arr	:	1 2 0
+INF :: Missing number is	:	0
+---------------------------
+INF :: For given array : arr	:	1 3 2 -2 3 5 -1 6
+INF :: Missing number is	:	4
+---------------------------
